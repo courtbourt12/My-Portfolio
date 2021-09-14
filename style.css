@@ -14,7 +14,7 @@ header {
 .title {
     padding:15px;
     margin-left: 20px;
-    background-color:#66D3FA;
+    background-color:#7ABBC9;
 }
 
 header ul {
@@ -25,7 +25,7 @@ header ul {
 #about-me {
     background-color: transparent;
     border: none;
-    color: #66D3FA;
+    color: #7ABBC9;
     font-size: 25px;
     text-decoration: underline;
 }
@@ -33,7 +33,7 @@ header ul {
 #work {
     background-color: transparent;
     border: none;
-    color: #66D3FA;
+    color: #7ABBC9;
     font-size: 25px;
     text-decoration: underline;
 }
@@ -41,7 +41,7 @@ header ul {
 #contact {
     background-color: transparent;
     border: none;
-    color: #66D3FA;
+    color: #7ABBC9;
     font-size: 25px;
     text-decoration: underline;
 }
@@ -49,7 +49,7 @@ header ul {
 #resume {
     background-color: transparent;
     border: none;
-    color: #66D3FA;
+    color: #7ABBC9;
     font-size: 25px;
     text-decoration: underline;
 }
@@ -63,11 +63,68 @@ header ul {
 
 header div h2 {
     padding: 15px;
-    background-color: #66D3FA;
+    background-color: #7ABBC9;
     color: #1b395a;
     text-align: center;
     position: absolute;
     left: 2005px;
     top: 480px;
 }
+
+main{
+    color:#1b395a;
+    background-color: #E6E7F6;
+}
+
+main section {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+.leftheader {
+    width: 450px;
+    border-right-color: #1b395a;
+    border-right-width: 5px;
+    border-right-style: solid;
+    font-size: 40px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.cards {
+    width: 1500px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+main section h3 {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    background-color: #7ABBC9;
+    z-index:2;
+    
+}
+
+main section a {
+    border-style: solid;
+    border-width: 4px;
+    border-color: #7ABBC9;
+    padding: 0px;
+    position: relative;
+    right: 130px;
+    z-index: 1;
+    margin-top: 30px;
+}
+
+#about {
+    padding-bottom:50px;
+    display:block;
+}
+
+
+
+
 
