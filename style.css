@@ -6,59 +6,43 @@ header {
     background-color:#1b395a;
     color: #1b395a;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    position:relative;
 }
 
 .title {
     padding:15px;
     margin-left: 20px;
     background-color:#7ABBC9;
+    display:inline-block;
 }
 
-header ul {
-    margin-left: 1500px;
-    padding-top: 25px;
-}
-
-#about-me {
+.top-links {
+    display: flex;
+    flex-direction: row;
     background-color: transparent;
     border: none;
     color: #7ABBC9;
     font-size: 25px;
     text-decoration: underline;
+    display:inline-block;    
+    position: absolute;
+    right:15px;
+    
+        
 }
 
-#work {
-    background-color: transparent;
-    border: none;
-    color: #7ABBC9;
-    font-size: 25px;
-    text-decoration: underline;
-}
-
-#contact {
-    background-color: transparent;
-    border: none;
-    color: #7ABBC9;
-    font-size: 25px;
-    text-decoration: underline;
-}
-
-#resume {
-    background-color: transparent;
-    border: none;
-    color: #7ABBC9;
-    font-size: 25px;
-    text-decoration: underline;
+a:hover {
+    font-weight: bolder;
+    cursor: grab;
 }
 
 #background-image {
-    width: 2390px;
-    height: 500px;
-    position: relative;
-    
+    width: 100%;
+    height: 500px;      
+}
+
+#top-image {
+    position:relative;
 }
 
 header div h2 {
@@ -67,8 +51,8 @@ header div h2 {
     color: #1b395a;
     text-align: center;
     position: absolute;
-    left: 2005px;
-    top: 480px;
+    right: 0px;
+    bottom: 0px;
 }
 
 main{
@@ -83,28 +67,99 @@ main section {
 }
 
 .leftheader {
-    width: 450px;
+    width: 25%;
     border-right-color: #1b395a;
     border-right-width: 5px;
     border-right-style: solid;
     font-size: 40px;
     text-align: right;
     padding-right: 10px;
+    display: inline-block;
+}
+
+#top { 
+    padding-bottom: 250px;
+}
+
+#about {
+    display: inline-block;
+    width: 70%;
+    padding-left: 25px;
+    padding-top: 10px;
 }
 
 .cards {
-    width: 1500px;
-    margin-left: 50px;
-    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 70%;
+    margin-left: 25px;
+    padding-top: 25px;
 }
 
-main section h3 {
+.fun {
+    display: inline-block;
+    position: relative;
+
+}
+main section img {
+    width: 500px;
+    height: 150px;
+    margin: 10px;
+    border-color: #7ABBC9;
+    border-style: solid;
+    border-width: 4px;
+}
+
+#second {
+    /* padding-bottom: 1000px; */
+    display: inline-block;
+}
+
+.ships {
+    padding: 15px;
+    background-color: #7ABBC9;
+    display: inline;
+    position: absolute;
+    bottom: 15px;
+    left:10px;
+}
+
+#bigger {
+    width: 1028px;
+    height: 400px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    color:#7ABBC9;
+    font-size: 22px;
+    font-weight:bolder;
+    text-decoration: none;
+}
+
+footer {
+    background-color:#1b395a;
+    color:#7ABBC9;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* .cards {
+    
+}
+
+.ships {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
     padding-bottom: 0px;
     background-color: #7ABBC9;
     z-index:2;
+    display:inline-block;
     
 }
 
@@ -115,14 +170,22 @@ main section a {
     padding: 0px;
     position: relative;
     right: 130px;
-    z-index: 1;
+    z-index: 0;
     margin-top: 30px;
 }
 
 #about {
     padding-bottom:50px;
-    display:block;
+    width: 70%;
+    display: inline-block;
+    padding-left: 20px;
 }
+
+.fun {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+} */
 
 
 
