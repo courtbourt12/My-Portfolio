@@ -26,11 +26,16 @@ header {
     text-decoration: underline;
     display:inline-block;    
     position: absolute;
-    right:15px;
-    
-        
+    right:15px;    
 }
 
+a {
+    color:#7ABBC9;
+}
+
+ol a {
+    text-decoration: none;
+}
 a:hover {
     font-weight: bolder;
     cursor: grab;
@@ -78,7 +83,7 @@ main section {
 }
 
 #top { 
-    padding-bottom: 250px;
+    padding-bottom: 100px;
 }
 
 #about {
@@ -109,6 +114,7 @@ main section img {
     border-color: #7ABBC9;
     border-style: solid;
     border-width: 4px;
+    background-color:#7ABBC9;
 }
 
 #second {
@@ -133,11 +139,12 @@ main section img {
 .list {
     display: flex;
     flex-direction: row;
-    padding-top: 10px;
+    padding-top: 45px;
     color:#7ABBC9;
     font-size: 22px;
     font-weight:bolder;
     text-decoration: none;
+    
 }
 
 footer {
@@ -148,46 +155,28 @@ footer {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-/* .cards {
-    
+
+#boat {
+    font-size: 12px;
+    line-height: 20px;
+    font-family: calibri;
 }
 
-.ships {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    padding-bottom: 0px;
-    background-color: #7ABBC9;
-    z-index:2;
-    display:inline-block;
-    
+a:hover {
+    opacity:70%;
 }
 
-main section a {
-    border-style: solid;
-    border-width: 4px;
-    border-color: #7ABBC9;
-    padding: 0px;
-    position: relative;
-    right: 130px;
-    z-index: 0;
-    margin-top: 30px;
+@media screen and (max-width: 768px) {
+    .cards {
+        display: flex;
+        flex: 1 1 0;
+        margin: 2% auto;
+    }
+
+    #bigger {
+        width: 100px;
+        display: flex;
+        flex: 1 1 0;
+        
+    }
 }
-
-#about {
-    padding-bottom:50px;
-    width: 70%;
-    display: inline-block;
-    padding-left: 20px;
-}
-
-.fun {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-} */
-
-
-
-
-
