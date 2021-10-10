@@ -9,11 +9,19 @@ header {
     position:relative;
 }
 
+#name {
+    font-size: 50px;
+}
+
 .title {
     padding:15px;
     margin-left: 20px;
     background-color:#7ABBC9;
     display:inline-block;
+}
+
+#rightAlign {
+    text-align: right;
 }
 
 .top-links {
@@ -30,7 +38,7 @@ header {
 }
 
 a {
-    color:#7ABBC9;
+    color: black;
     padding-right: 10px;
 }
 
@@ -59,7 +67,7 @@ a:hover {
 
 #bigger {
     width: 92%;
-    max-height: 500px auto;
+    height: auto;
 }
 
 .col-3 {
@@ -99,7 +107,6 @@ main section img {
     flex-wrap: wrap;
     flex-direction: row;
     padding-top: 45px;
-    color:#7ABBC9;
     font-size: 22px;
     font-weight:bolder;
     text-decoration: none;
@@ -107,12 +114,11 @@ main section img {
 }
 
 footer {
-    background-color:#1b395a;
-    color:#7ABBC9;
     text-align: center;
     font-size: 15px;
     padding-top: 20px;
     padding-bottom: 20px;
+    border-top: 2px solid black;
 }
 
 #boat {
