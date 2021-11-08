@@ -1,45 +1,49 @@
-:root {
-    --header: #1b395a;
-}
+
 
 header {
     background-color:#1b395a;
     color: #1b395a;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    position:relative;
 }
 
-#name {
-    font-size: 50px;
+
+
+#biggerFont {
+    font-size: 30px;
+    font-weight: 50px;
+    background-color: #9fa4c4;
+    background-image: linear-gradient(315deg, #9fa4c4 0%, #9e768f 74%);
 }
 
-.title {
-    padding:15px;
-    margin-left: 20px;
-    background-color:#7ABBC9;
-    display:inline-block;
+.gradients {
+    height: 100px;
+    width: 100px;
+    background-image: linear-gradient(315deg, #ba5370 0%, #f4e2d8 74%);
 }
 
-#rightAlign {
-    text-align: right;
+.makeitsmall {
+    width: 75%;
+    height: 200px;
 }
 
-.top-links {
-    display: flex;
-    flex-direction: row;
-    background-color: transparent;
-    border: none;
-    color: #7ABBC9;
-    font-size: 25px;
-    text-decoration: underline;
-    display:inline-block;    
-    position: absolute;
-    right:15px;    
+#theNavBar {
+    background-color: #1b395a;
+    color: white;
 }
+
+#makeTaller {
+    height: 100px;
+    
+}
+
+
+
+
+
 
 a {
     color: black;
-    padding-right: 10px;
+    
 }
 
 ol a {
@@ -50,68 +54,9 @@ a:hover {
     cursor: grab;
 }
 
-.row {
-    margin-top: 75px;
-}
 
-.col {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 
-#background-image {
-    width: 100%;
-    height: 500px;      
-}
 
-#bigger {
-    width: 92%;
-    height: auto;
-}
-
-.col-3 {
-    border-right: 1px solid black;
-}
-
-#bottomRow {
-    margin-bottom: 50px;
-}
-
-.leftheader {
-    font-size: 40px;
-    text-align: right;
-    padding-right: 10px;
-}
-
-main section img {
-    width: 500px;
-    height: 150px;
-    margin: 10px;
-    border-color: #7ABBC9;
-    border-style: solid;
-    border-width: 4px;
-    background-color:#7ABBC9;
-}
-.ships {
-    padding: 15px;
-    background-color: #7ABBC9;
-    display: inline;
-    position: absolute;
-    bottom: 15px;
-    left:10px;
-}
-
-.list {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    padding-top: 45px;
-    font-size: 22px;
-    font-weight:bolder;
-    text-decoration: none;
-    
-}
 
 footer {
     text-align: center;
@@ -129,4 +74,70 @@ footer {
 
 a:hover {
     opacity:70%;
+}
+
+#aboutMe, #workPage, #contactPage, #theResume, #myName {
+    border: none;
+    color: white;
+}
+
+#aboutMe, #workPage, #contactPage, #theResume {
+    font-size: 25px;
+}
+
+#myName {
+    font-size: 50px;;
+}
+
+.contact {
+    border: 2px solid black;
+    padding: 15px 20px 15px 20px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 25%;
+    margin-top: 100px;
+}
+
+#stickfigure  img{
+    border: 2px solid black; 
+    height: 500px;
+    display: inline;
+    margin-left: 55%;
+    position: absolute;
+    top: 200px
+}
+
+.theContactPage {
+    margin-top: 800px;
+    margin-bottom: 50px;
+    z-index: 1;
+    display: block;
+    position: relative;
+    height: 700px;
+}
+
+.theWorkPage {
+    display: block;
+    z-index:1;
+    margin-top: 150px;
+    
+}
+
+.makeitsmall {
+    margin-left: 12%;
+}
+
+.sectionTitle {
+    text-align: center;
+    margin-bottom: 20px;
+    border-top: 3px solid #7ABBC9;
+    border-bottom: 3px solid #7ABBC9;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    background-color: #1b395a;
+}
+
+.aboutCards {
+    margin-top: 100px;
 }
